@@ -15,8 +15,8 @@ for (var i = 2; i <= 150000; i++) {
 	if (isPrime(i)) {
 		if (count === 10001) {
 			console.log('Prime: ' + i);
+			break;
 		}
-		// console.log(count + ':' + i);
 		count++;
 	}
 }
