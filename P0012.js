@@ -20,6 +20,7 @@ while(true) {
 		}
 	}
 
+
 	console.log(num + ':' + tri + ':' + factorCount);
 
 	if (factorCount >= 500) {
